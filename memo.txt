@@ -1,0 +1,19 @@
+バージョン確認履歴
+[tsugihara@localhost ruby_on_rails]$ ruby -v
+ruby 2.2.0p0 (2014-12-25 revision 49005) [x86_64-linux]
+[tsugihara@localhost ruby_on_rails]$ 
+[tsugihara@localhost ruby_on_rails]$ 
+[tsugihara@localhost ruby_on_rails]$ rails -v
+Rails 4.2.0
+[tsugihara@localhost ruby_on_rails]$ 
+[tsugihara@localhost ruby_on_rails]$ 
+[tsugihara@localhost ruby_on_rails]$ git --version
+git version 1.8.3.1
+[tsugihara@localhost ruby_on_rails]$
+[tsugihara@localhost ruby_on_rails]$ 
+[tsugihara@localhost ruby_on_rails]$ gem -v
+2.4.5
+[tsugihara@localhost ruby_on_rails]$ 
+
+チュートリアルとちょっと違うので、つまったら変更するかも。
+
