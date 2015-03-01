@@ -1,0 +1,14 @@
+github接続用のSSHの鍵を作成
+参考URL:http://dev.classmethod.jp/tool/github-ssh-sub-account-setting/
+■コマンド
+[teruflic@ip-xxx-xxx-xxx-xxx .ssh]$ ssh-keygen -t rsa -f id_rsa_git
+
+■コンフィグファイル作成
+[teruflic@ip-xxx-xxx-xxx-xxx .ssh]vim config
+Host <ホスト名>
+    HostName github.com
+    User git
+    Port 22
+    IdentityFile    ~/.ssh/id_rsa_git
+[teruflic@ip-xxx-xxx-xxx-xxx .ssh]chmod 600 ./config
+
