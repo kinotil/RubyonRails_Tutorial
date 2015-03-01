@@ -12,3 +12,26 @@ Host <ホスト名>
     IdentityFile    ~/.ssh/id_rsa_git
 [teruflic@ip-xxx-xxx-xxx-xxx .ssh]chmod 600 ./config
 
+[teruflic@ip-xxx-xxx-xxx-xxx RubyonRails_Tutorial]$ git checkout -b Tutorial_AWS
+Switched to a new branch 'Tutorial_AWS'
+[teruflic@ip-xxx-xxx-xxx-xxx RubyonRails_Tutorial]$
+
+[teruflic@ip-xxx-xxx-xxx-xxx RubyonRails_Tutorial]$
+[teruflic@ip-xxx-xxx-xxx-xxx RubyonRails_Tutorial]$ git push origin Tutorial_AWS
+Warning: Permanently added the RSA host key for IP address 'xxx.xxx.xxx.xxx' to the list of known hosts.
+Total 0 (delta 0), reused 0 (delta 0)
+To git_RubyonRails:kinotil/RubyonRails_Tutorial.git
+ * [new branch]      Tutorial_AWS -> Tutorial_AWS
+[teruflic@ip-xxx-xxx-xxx-xxx RubyonRails_Tutorial]$
+[teruflic@ip-xxx-xxx-xxx-xxx RubyonRails_Tutorial]$
+[teruflic@ip-xxx-xxx-xxx-xxx RubyonRails_Tutorial]$
+[teruflic@ip-xxx-xxx-xxx-xxx RubyonRails_Tutorial]$ git branch -a
+* Tutorial_AWS
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/Tutorial
+  remotes/origin/Tutorial_AWS
+  remotes/origin/master
+[teruflic@ip-xxx-xxx-xxx-xxx RubyonRails_Tutorial]$
+
+
