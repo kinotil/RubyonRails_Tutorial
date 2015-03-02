@@ -17,3 +17,16 @@ git version 1.8.3.1
 
 チュートリアルとちょっと違うので、つまったら変更するかも。
 
+[tsugihara@localhost first_app]$ vim Gemfile
+[tsugihara@localhost first_app]$ bundle update
+Your Ruby version is 2.0.0, but your Gemfile specified 2.2.0
+■Rubyのバージョン
+[tsugihara@localhost first_app]$ ruby -v
+ruby 2.2.0p0 (2014-12-25 revision 49005) [x86_64-linux]
+■rbenbでRubyのバージョン
+[tsugihara@localhost first_app]$ rbenv versions
+  system
+* 2.2.0 (set by /home/tsugihara/.ruby-version)
+[tsugihara@localhost first_app]$ rbenv version
+2.2.0 (set by /home/tsugihara/.ruby-version)
+
